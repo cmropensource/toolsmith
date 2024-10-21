@@ -14,6 +14,7 @@ import Dashboard from './components/Dashboard';
 import Login from './components/Login';
 import SelectDs from './components/SelectDs';
 import Connection from './components/Connection';
+import SignUp from './components/Signup';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         {/* <Route path='/dbenter/postgres' element={<Postgres />} /> */}
         <Route path="/databases" element={<Databases />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </>
   );

@@ -60,10 +60,12 @@ function Navbar() {
           <button className="mx-4 font-mono transition duration-300 hover:scale-105 hover:bg-blue-100 text-md p-2 hover:text-blue-600 text-blue-600 border border-solid border-blue-600 rounded-md">
             Login
           </button>
-        </Link>
+        </Link >
+        <Link to={'/Signup'}>
         <button className="mx-4 rounded-md hover:bg-blue-600 border-blue-600 font-mono font-light border-solid hover:border-blue-600 p-2 border text-md bg-blue-100 hover:text-white transition duration-300 text-blue-600">
           Signup
         </button>
+        </Link >
       </div>
     </nav>
   );
